@@ -1,0 +1,22 @@
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+
+; Include water topology
+#include "oplsaa.ff/tip4p.itp"
+
+; Include topology for ions
+#include "oplsaa.ff/ions.itp"
+
+; Include pyrimidine topology
+#include "../pyrimidine.itp"
+
+[ system ]
+; Name
+Two pyrimidine molecules in saline solution
+
+[ molecules ]
+; Compound        #mols
+pyrimidine            2
+SOL                4109
+NA                   11
+CL                   11

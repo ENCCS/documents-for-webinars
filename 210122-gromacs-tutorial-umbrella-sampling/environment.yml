@@ -1,0 +1,17 @@
+name: gromacs-tutorials
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - gromacs
+  - matplotlib
+  - nglview
+  - notebook
+  - numpy
+  - requests
+  - pandas
+  - seaborn
+  - compilers
+  - openmpi
+  - cmake
